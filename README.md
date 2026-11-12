@@ -6,7 +6,7 @@
 
 A private, encrypted manager for your Steam accounts on Windows 10 / 11 (64-bit).
 
-**[⬇ Download the latest version](../../releases/latest)**
+**[⬇ Download the latest version](../../releases/latest)** &nbsp;·&nbsp; current version: **1.0.0**
 
 </div>
 
