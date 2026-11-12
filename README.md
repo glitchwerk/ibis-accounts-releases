@@ -4,9 +4,9 @@
 
 # Ibis Accounts
 
-A private, encrypted manager for your Steam accounts on Windows 10 / 11 (64-bit).
+A private, encrypted manager for your Steam accounts, for Windows and Android.
 
-**[⬇ Download the latest version](../../releases/latest)** &nbsp;·&nbsp; current version: **1.0.0**
+**[⬇ Windows (.exe)](../../releases/latest/download/IbisAccounts.exe)** &nbsp;·&nbsp; **[⬇ Android (.apk)](../../releases/latest/download/IbisAccounts.apk)** &nbsp;·&nbsp; current version: **1.0.0**
 
 </div>
 
@@ -19,15 +19,28 @@ A private, encrypted manager for your Steam accounts on Windows 10 / 11 (64-bit)
    (Or right-click the file → **Properties** → tick **Unblock** → OK.)
 4. Create a master password. There is no way to recover it, so keep it safe.
 
+## Android app
+
+The Android app is for **Ibis Cloud** users: it shows the same accounts as your PC, with
+live Steam Guard codes, Steam confirmations (accept or deny by hand) and editing that syncs
+back to the PC.
+
+1. On the PC, turn on Ibis Cloud: **Settings → Ibis Cloud → Create account**.
+2. On the phone, download **[IbisAccounts.apk](../../releases/latest/download/IbisAccounts.apk)**
+   and open it. Allow **Install unknown apps** when Android asks. If Play Protect warns,
+   tap **Install anyway**.
+3. Sign in with the same e-mail and cloud password. The app locks with your fingerprint,
+   face or phone PIN.
+
 ## Get notified about new versions
 
 On this page click **Watch → Custom → Releases → Apply**. GitHub e-mails you whenever a
-new version is published. To update, download the new `IbisAccounts.exe` and replace the
-old one; your accounts and settings are kept.
+new version is published. To update, download the new file and install or replace it
+over the old one; your accounts and settings are kept.
 
 ## Check your download (optional)
 
-Every release lists the file's SHA-256 checksum. In PowerShell:
+Every release lists each file's SHA-256 checksum. In PowerShell:
 
 ```powershell
 Get-FileHash .\IbisAccounts.exe -Algorithm SHA256
